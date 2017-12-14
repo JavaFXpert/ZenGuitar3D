@@ -34,11 +34,11 @@
 package projavafx.zenguitar3d.model;
 
 public class InstConfig {
-  private static int DEFAULT_NUM_STRINGS = 8;
+  private static int DEFAULT_NUM_STRINGS = 10;
   private static int CHINESE_GUITAR_NUM_STRINGS = 4;
 
   private static int DEFAULT_OPEN_NOTE_VALS[]
-    = {46, 41, 37, 32, 27, 22, 17, 12};
+    = {59, 54, 49, 44, 39, 34, 29, 24, 19, 14};
   private static int CHINESE_GUITAR_OPEN_NOTE_VALS[]
     // = {34, 29, 25, 20};
     // = {51, 46, 44, 39, 34, 29, 24, 19};

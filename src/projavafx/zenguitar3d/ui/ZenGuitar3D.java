@@ -54,11 +54,11 @@ import projavafx.zenguitar3d.model.InstConfig;
 
 public class ZenGuitar3D extends Application {
   static int INITIAL_INST_PICKER_FACE = 14;
-  static double NECK_HEIGHT = 900;
+  static double NECK_HEIGHT = 1000;
 
   static int LOW_NOTE = 18;
   static int NUM_FRETS = 15;
-  static double STRING_WIDTH = 1900;
+  static double STRING_WIDTH = 1620;
   static double NECK_DEPTH = 100;
   static double GUITAR_INITIAL_Z = 40;
 
@@ -203,6 +203,10 @@ public class ZenGuitar3D extends Application {
           createFretMarker(3, _markerMaterial),
           createFretMarker(4, _markerMaterial),
           createFretMarker(5, _markerMaterial),
+          createFretMarker(6, _markerMaterial),
+          createFretMarker(7, _markerMaterial),
+          createFretMarker(8, _markerMaterial),
+          createFretMarker(9, _markerMaterial),
           _midiPicker
       );
 
